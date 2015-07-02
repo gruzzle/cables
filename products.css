@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: #DDDDDD;
+}
+
+h1 {
+    color: #EEEEEE;
+    text-align: center;
+}
+
+a:link {
+    color: #DDDDDD;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #DDDDDD;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DDDDDD;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #DDDDDD;
+    text-decoration: underline;
+}

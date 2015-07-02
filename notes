@@ -1,0 +1,10 @@
+table for connectors:
+id
+name
+short description (for menu)
+long description (for details page)
+imageurl
+
+create table cables(id INT KEY NOT NULL AUTO_INCREMENT, name TEXT, image_url TEXT, short_desc TEXT, long_desc TEXT);
+
+should probably do stuff like eg. name TEXT NOT NULL

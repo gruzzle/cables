@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Cables</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <script type="text/javascript">
+     
+     window.onload = function() {
+       var homeLink = document.getElementById("link-home");
+       homeLink.onclick = function() {loadContent('home.html')};
+       var productsLink = document.getElementById("link-products");
+       productsLink.onclick = function() {loadContent('products.php')};
+       var orderLink = document.getElementById("link-order");
+       orderLink.onclick = function() {loadContent('order.php')};
+
+     }
+
+     function loadContent(url) {
+       var page = '<object type="text/html" data="' + url + '" style="width:100%; height: 100%;"></object>';
+       document.getElementById("div-content").innerHTML=page;
+     }
+     
+    </script>
+    
+  </head>
+
+  <body>
+    <div id="div-header">
+      <h1>CABLE CORP CABLES</h1>
+    </div>
+
+    <div id="div-navigation">
+      <ul>
+	<li id="link-home">Home</li>
+	<li id="link-products">Products</li>
+	<li id="link-order">Order</li>
+      </ul>
+    </div>
+    
+    <div id="div-content">
+
+    </div>
+
+  </body>
+</html>

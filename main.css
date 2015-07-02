@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: #DDDDDD;
+}
+
+#div-header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#div-navigation {
+    text-align: center;
+}
+
+#div-navigation ul {
+    display: inline-block;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#div-navigation li {
+    float: left;
+}
+
+#div-navigation li {
+    display: block;
+    width: 100px;
+    padding: 8px;
+
+    color: black;
+    background-color: grey;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#div-navigation li:hover {
+    color: grey;
+    background-color: black;    
+}
+
+#div-content {
+    clear: both;
+    width: 100%;
+}
