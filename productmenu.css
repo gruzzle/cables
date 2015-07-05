@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: #DDDDDD;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 60px;
+}
+
+a:link {
+    color: #DDDDDD;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #DDDDDD;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DDDDDD;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #DDDDDD;
+    text-decoration: underline;
+}
