@@ -8,3 +8,9 @@ imageurl
 create table cables(id INT KEY NOT NULL AUTO_INCREMENT, name TEXT, image_url TEXT, short_desc TEXT, long_desc TEXT);
 
 should probably do stuff like eg. name TEXT NOT NULL
+
+orders:
+cable length
+remove single order (button next to <li>)
+name, contact details etc. for user
+email button
